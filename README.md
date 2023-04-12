@@ -1,4 +1,4 @@
-# Thingsboard Kakao Map Widget
+# Thingsboard Kakao Map Widget <img alt="Python" src ="https://img.shields.io/badge/thingsboard-informational"/> <img alt="Python" src ="https://img.shields.io/badge/kakao_map_api-yellow"/>
 
 ## Version
 - thingsboard 3.4.4
@@ -21,17 +21,17 @@
 
 ## Procedure
 1. 메인 대시보드에서 Device or Asset alias 등록
-<p align="center"><img src="./readme_img/alias.png" width="30%" height="30%"></p><br>
+<p align="center"><img src="./readme_img/alias.png" width="50%" height="50%"></p><br>
 
 > - 초기 지도 중심 위치를 설정할 Device or Asset의 alis는 'main'으로 설정<br>
 
 2. kakao map 위젯 데이터 소스 추가
-<p align="center"><img src="./readme_img/data.png" width="30%" height="30%"></p><br>
+<p align="center"><img src="./readme_img/data.png" width="50%" height="50%"></p><br>
 
 > - Device or Asset 서버 속성에 설정한 위도, 경도 데이터만 추가<br>
 
 3. kakao map 위젯 액션 추가
-<p align="center"><img src="./readme_img/action.png" width="30%" height="30%"></p><br>
+<p align="center"><img src="./readme_img/action.png" width="50%" height="50%"></p><br>
 
 > - action name은 링크 걸어줄 대시보드의 이름과 동일하게 설정<br>
 > - 'Show/hide action using function' 활성화 - return false;<br>
